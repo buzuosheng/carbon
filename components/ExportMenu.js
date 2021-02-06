@@ -81,7 +81,7 @@ function ExportMenu({
           style={{ minWidth: 92, borderBottomRightRadius: 0, borderTopRightRadius: 0 }}
           title="Quick export"
         >
-          {loading ? 'Exporting…' : 'Export'}
+          {loading ? '导出中…' : '导出'}
         </Button>
         <Button
           id="export-menu"

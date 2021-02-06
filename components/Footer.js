@@ -19,7 +19,7 @@ const Footer = () => (
       <a className="link" href="https://github.com/carbon-app/carbon">
         source
       </a>
-      <a className="link" href="/terms">
+      {/* <a className="link" href="/terms">
         terms
       </a>
       <a className="link" href="/privacy">
@@ -28,12 +28,12 @@ const Footer = () => (
       <EmailSubscribe />
       <a className="link" href="/offsets">
         offsets
-      </a>
+      </a> */}
       {/* <span className="new">New</span> */}
     </nav>
 
     <div className="mt2 mb2">
-      created by{' '}
+      powerd by{' '}
       <a className="author-link" href="https://twitter.com/carbon_app">
         @carbon_app
       </a>{' '}

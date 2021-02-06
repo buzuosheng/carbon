@@ -1,17 +1,18 @@
 import React from 'react'
-import Logo from './svg/Logo'
+import { COLORS } from '../lib/constants'
 
 const Header = ({ enableHeroText }) => (
   <header role="banner" className="mb4">
     <div className="header-content">
       <a id="link-home" href="/" aria-label="Home">
-        <Logo />
+        {/* {<Logo />} */}
+        公诸同好
       </a>
       {enableHeroText ? (
         <h2 className="mt3">
-          Create and share beautiful images of your source code.
+          你的代码很不错
           <br />
-          Start typing or drop a file into the text area to get started.
+          但下一秒就是我的了
         </h2>
       ) : null}
     </div>
@@ -26,6 +27,9 @@ const Header = ({ enableHeroText }) => (
         .header-content a {
           height: 64px;
           max-width: 96vw;
+          font-family: 'Berkshire Swash', cursive;
+          font-size: 3rem;
+          color: ${COLORS.PRIMARY};
         }
 
         h2 {
